@@ -1,0 +1,261 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, span, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply font and basic styles */
+#body_index {
+    background-image: url('/images/backg.jpg');
+    background-size: cover;
+}
+
+#body_index h3{
+    background-color: rgba(255, 145, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+#body_index h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+/* Styling for the paragraph inside the container */
+#body_index h4 {
+    font-family: 'Courier New',monospace;
+    color: rgb(255, 255, 255); /* Set paragraph text color to white */
+}
+
+
+#body_log {
+    background-image: url('/images/log.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Style the input fields and labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #800303;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #f57200;
+}
+
+.navbar {
+    background-color: #000000;
+    overflow: hidden;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Arrange items with space between */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.navbar-left, .navbar-center, .navbar-right {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.navbar-left span {
+    font-family: 'Courier New', monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-center a {
+    display: inline-block; /* Display as block to allow for positioning */
+    vertical-align: middle; /* Align vertically in the middle */
+    margin-left: 20px; /* Adjust margin as needed */
+}
+
+.navbar-center img {
+    vertical-align: middle; /* Align vertically in the middle */
+    width: 40px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-center span {
+    font-family: 'Courier New', monospace;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar-right a {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-family: 'Courier New',monospace;
+}
+
+.navbar-right a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Main content styles */
+h1 {
+    color: rgb(0, 0, 0);
+    font-style:normal;
+    font-family: 'Courier New',monospace;
+    font-weight: 1200;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Courier New',monospace;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Courier New',monospace;
+    margin-top: 10px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 200px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: #ff6600;
+}
+
+/* Footer styles */
+footer {
+    font-family: 'Courier New',monospace;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: rgba(2, 2, 2, 0.5);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#body_reg {
+    background-image: url('/images/reg.jpg');
+    background-size: cover;
+}
+
+
+.container {
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(2, 2, 2, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Courier New',monospace;
+    color: #ff8400;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container label {
+    font-weight: bold;
+    font-family: 'Courier New',monospace;
+    color: #fff;
+}
+
+.container option {
+    font-weight: normal;
+    font-family: 'Courier New',monospace;
+}
+
+.container select {
+    font-weight: normal;
+    font-family: 'Courier New',monospace;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #ff6f00;
+}
+
+
